@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload Images</title>
+  </head>
+  <body>
+    <h1>Upload Images to Convert to PDF</h1>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+      <input type="file" name="files[]" multiple>
+      <input type="submit" value="Upload">
+    </form>
+  </body>
+</html>
